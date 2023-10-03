@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: #343541;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.main > img {
+    width: 39px;
+    height: 39px;
+}
+
+button {
+    width: 75px;
+    height: 38px;
+    padding: 5px 0px 6px 0px;
+    background:#0FA47F;
+    border: none;
+    border-radius: 4px;
+
+    color: #fff;
+    font-family: 'Inter';
+
+    cursor: pointer;
+}
+
+img, p, button {
+    margin: 5px;
+}

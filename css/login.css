@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    background: #fff;
+    color: #000;
+    
+    
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 500;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textfield, .continue, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main > img {
+    width: 30px;
+    height: 30.405px;
+
+    margin-top: 33px;
+    margin-bottom: 200px;
+}
+
+.main > h1 {
+    margin-bottom: 36px;
+}
+
+input {
+    width: 320px;
+    height: 52px;
+
+    padding-left: 10px;
+    background: none;
+    border: 1px solid #C3C8CF;
+    border-radius: 4px;
+    outline: none;
+
+    font-family: 'Inter';
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox > span {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    padding: 10px;
+
+    color: #787878c7;
+    pointer-events: none;
+}
+
+.inputBox input:valid ~ span, 
+.inputBox input:focus ~ span{
+    color: #0FA47F;
+    transform: translateX(-5px) translateY(-15px);
+    transition: 0.2s;
+    font-size: 15px;
+    padding: 0 10px;
+    background: #fff;
+}
+
+input:focus {
+    border: 1px solid #0FA47F;
+}
+
+
+button {
+    width: 320px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+#submit {
+    background: #0FA47F;
+    color: #fff;
+    font-family: 'Inter';
+
+    margin-bottom: 10px;
+}
+
+
+a {
+    color: #0FA47F;
+    text-decoration: none;
+
+}
+
+.division {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.division > p {
+    margin: 0 10px;
+}
+
+
+.enter {
+    background: none;
+    border: 1px solid #C3C8CF;
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.enter > img {
+    width: 30px;
+    position: absolute;
+    left: 825px;
+}
+
+#google > p {
+    margin-right: 70px;
+}
+
+
+
+
+h1, input, div, .captcha {
+    margin: 10px;
+}
+
+
