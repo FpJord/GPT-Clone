@@ -11,34 +11,73 @@
 </head>
 <body>
     <div class="main">
+        <nav class="menu">
+            <button class="newChat">+ <span>New chat</span></button>
+
+            <img src="assets/Black Line.svg" alt="Line" id="Line">
+
+           <ul class="item-meu">
+            <li class="page">
+                <img src="assets/contrast.svg" alt="Light Mode Icon">
+                <p>Light mode</p>
+            </li>
+            <li class="page">
+                <img src="assets/discord.svg" alt="Discord Icon">
+                <p>OpenAi Discord</p>
+            </li>
+            <li class="page">
+                <img src="assets/enlarge.svg" alt="Updates Icon">
+                <p>Updates & FAQ</p>
+            </li>
+            <li class="page">
+                <img src="assets/logout.svg" alt="Log out">
+                <p>Log out</p>
+            </li>
+           </ul>
+
+
+        </nav>
+
+
+
         <div class="center">
             <h1>ChatGPT</h1>
-        
+            
             <div class="block">
                 <div class="column">
-                    <img src="assets/contrast.svg" alt="Contrast Icon">
-                    <h1>Examples</h1>
-
-                    <button class="topic"></button>
-                    <button class="topic"></button>
-                    <button class="topic"></button>
+                    <img src="assets/contrast.svg" alt="Contrast Icon" width="22px" height="22px">
+                    <p>Examples</p>
+                    <button class="topic">“Explain quantum computing in simple terms” →</button>
+                    <button class="topic">“Got any creative ideas for a 10 year old’s birthday?” →</button>
+                    <button class="topic">“How do I make an HTTP  request in Javascript?” →</button>
                 </div>
 
                 <div class="column">
-                    <button class="topic"></button>
-                    <button class="topic"></button>
-                    <button class="topic"></button>
+                    <img src="assets/Flash.svg" alt="Flash Icon">
+                    <p>Capabilities</p>
+                    <button class="topic">Remembers what user said earlier in the conversation</button>
+                    <button class="topic">Allows user to provide follow- up corrections</button>
+                    <button class="topic">Trained to decline inappropriate requests</button>
                 </div>
-                    
+
                 <div class="column">
-                    <button class="topic"></button>
-                    <button class="topic"></button>
-                    <button class="topic"></button>
+                    <img src="assets/Limitations.svg" alt="Limitation Icon">
+                    <p>Limitations</p>
+                    <button class="topic">May occasionally generate incorrent information</button>
+                    <button class="topic">May occasionally produce harmful instructions or biased content</button>
+                    <button class="topic">Limited knowledge of world and events after 2021</button>
                 </div>
             </div>
+
         </div>
 
+        
+        <div class="ask">
         <input type="text" id="msg">
+        <img src="assets/send.svg" alt="Send Icon">
+        </div>
+
+
     </div>
 </body>
 </html>
